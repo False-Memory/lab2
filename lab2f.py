@@ -12,4 +12,4 @@ if len(sys.argv) < 3:
 else:
     name = sys.argv[1]
     age = sys.argv[2]
-    print("Hi",name,",you are",age,"years old and the script recieved",len(sys.argv),"arguments")
+    print("Hi",name,",you are",age,"years old and the script recieved",len(sys.argv)-1,"arguments")

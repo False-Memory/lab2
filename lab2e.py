@@ -14,6 +14,6 @@ print(len(sys.argv))    # tells us the number of command line arguments the user
 if len(sys.argv) == 3:
     print("Hello User, Good Job, you provided two arguments!")
 elif len(sys.argv) == 1:
-    print("This cript requires exactly two arguments. No arguments were provided!")
+    print("This script requires exactly two arguments. No arguments were provided!")
 else:
     print("This script requires exactly two arguments. You provided",len(sys.argv)-1,"arguments.")
